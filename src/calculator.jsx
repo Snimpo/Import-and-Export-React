@@ -1,26 +1,27 @@
-import React from "react";
 
-let result;
+let result = 1;
 
 function add(a, b){
-    result = a+b;
+    return a+b;
 
 }
 
 function multiply(a, b){
-    result = a*b;
+    return a*b;
 
 }
 
 
 function substrac(a, b){
-    result = a-b;
+    return a-b;
 
 }
 
 
 function divide(a, b){
-    result = a/b;
+    return a/b;
 
 
 }
+export default result;
+export {add, multiply, substrac, divide };

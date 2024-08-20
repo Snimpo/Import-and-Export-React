@@ -1,15 +1,16 @@
 import "./App.css";
-import * as result from "./calculator";
+import result, {add, multiply, substrac, divide} from "./calculator";
 
 function App() {
   return (
     <>
       <div>
         <ul>
-          <li> {result.add(1,2)} </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li> {result} </li>
+          <li>{add(1,2)}</li>
+          <li>{multiply(2,3)}</li>
+          <li>{divide(5,4)}</li>
+          <li>{substrac(4,2)}</li>
         </ul>
       </div>
     </>
