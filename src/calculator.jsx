@@ -1,27 +1,17 @@
 
 let result = 1;
 
-function add(a, b){
-    return a+b;
+let add = (a, b) => a+b
 
-}
-
-function multiply(a, b){
-    return a*b;
-
-}
+let multiply = (a, b) => a*b
 
 
-function substrac(a, b){
-    return a-b;
-
-}
+let substrac = (a, b) => a-b
 
 
-function divide(a, b){
-    return a/b;
+
+let divide = (a, b) => a/b
 
 
-}
 export default result;
 export {add, multiply, substrac, divide };
